@@ -43,8 +43,10 @@ gem 'jquery-rails'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
 end
+
 gem "autoprefixer-rails"
 gem 'carrierwave', '~> 2.0'
+gem 'trix-rails', require: 'trix'
 
 
 group :development, :test do
