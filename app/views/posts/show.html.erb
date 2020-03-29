@@ -12,7 +12,7 @@
       |
       <%= link_to 'Изменить' , edit_post_path(@post)%>
       |
-      <%= link_to 'Удалить' , edit_post_path(@post), method: :delete, data: {confirm: 'Вы уверены?'}%>
+      <%= link_to 'Удалить' , post_path(@post), method: :delete, data: {confirm: 'Вы уверены?'}%>
   </section>
 
   <section class="post-body">
